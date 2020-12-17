@@ -82,8 +82,7 @@ export default function CreateGrid() {
        });
 
     }
-    else
-      setActiveStep((prevActiveStep) => prevActiveStep + 1);
+    setActiveStep((prevActiveStep) => prevActiveStep + 1);
     
   };
 
